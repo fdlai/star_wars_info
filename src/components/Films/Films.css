@@ -1,0 +1,14 @@
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.film {
+  border: 1px solid black;
+}
+
+.film__subtitle {
+  text-align: center;
+}

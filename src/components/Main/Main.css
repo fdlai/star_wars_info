@@ -1,0 +1,26 @@
+.main__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__link {
+  height: 30px;
+  width: 75px;
+  border: 2px solid black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.main__link:hover {
+  opacity: 0.5;
+}
+
+.main__buttons-container {
+  display: flex;
+  justify-content: space-between;
+}

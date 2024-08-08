@@ -1,0 +1,21 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.header__title:visited {
+  color: inherit;
+}
+
+.header__title:hover {
+  opacity: 0.6;
+}
